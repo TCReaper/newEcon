@@ -1,0 +1,330 @@
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+}
+.span {
+  font-weight: 900;
+}
+.goBack {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.search1,
+.vectorIcon {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.search1 {
+  width: 731px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.addNewSupplier,
+.search,
+.search1 {
+  display: flex;
+  align-items: center;
+}
+.search {
+  position: absolute;
+  height: 7.03%;
+  width: 59.72%;
+  top: 24.61%;
+  right: 35.42%;
+  bottom: 68.36%;
+  left: 4.86%;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-6xl);
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkgray-100);
+}
+.addNewSupplier {
+  position: relative;
+  justify-content: center;
+  width: 320px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.search2,
+.vectorIcon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.search2 {
+  height: 7.03%;
+  width: 29.17%;
+  top: 24.61%;
+  right: 4.86%;
+  bottom: 68.36%;
+  left: 65.97%;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-mediumseagreen);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-6xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.vectorIcon1 {
+  height: 5.96%;
+  width: 4.71%;
+  top: 15.63%;
+  right: 89.25%;
+  bottom: 78.42%;
+  left: 6.04%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.eMail,
+.name,
+.no,
+.salesman {
+  position: absolute;
+  top: 13px;
+  left: 112px;
+}
+.eMail,
+.name,
+.salesman {
+  left: 211px;
+  display: inline-block;
+  width: 105px;
+}
+.eMail,
+.salesman {
+  left: 551px;
+  width: 90px;
+}
+.eMail {
+  left: 990px;
+  width: 195px;
+}
+.productListChild {
+  position: absolute;
+  top: 39.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 1301px;
+  height: 1px;
+}
+.productListInner,
+.productListItem {
+  top: -9.5px;
+  border-right: 1px solid var(--color-gainsboro);
+  width: 1px;
+  height: 201px;
+}
+.productListItem {
+  position: absolute;
+  left: 89.5px;
+  box-sizing: border-box;
+}
+.productListInner {
+  left: 199.5px;
+}
+.lineDiv,
+.productListInner,
+.tickbox {
+  position: absolute;
+  box-sizing: border-box;
+}
+.lineDiv {
+  top: -8.5px;
+  left: 970.5px;
+  border-right: 1px solid var(--color-gainsboro);
+  width: 1px;
+  height: 201px;
+}
+.tickbox {
+  height: 16.26%;
+  width: 1.54%;
+  top: 10.57%;
+  right: 97.31%;
+  bottom: 73.17%;
+  left: 1.15%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-lightgray);
+  overflow: hidden;
+}
+.contactNo {
+  position: absolute;
+  top: 13px;
+  left: 771px;
+  display: inline-block;
+  width: 90px;
+}
+.productListChild1 {
+  top: -3.5px;
+  left: 530.5px;
+  border-right: 1px solid var(--color-gainsboro);
+  width: 1px;
+  height: 201px;
+}
+.productList,
+.productListChild1,
+.productListChild2 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.productListChild2 {
+  top: -3.5px;
+  left: 750.5px;
+  border-right: 1px solid var(--color-gainsboro);
+  width: 1px;
+  height: 201px;
+}
+.productList {
+  height: 12.01%;
+  width: 90.28%;
+  top: 35.45%;
+  right: 4.93%;
+  bottom: 52.54%;
+  left: 4.79%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray-100);
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.suppliers1 {
+  position: absolute;
+  height: 6.54%;
+  width: 62.43%;
+  top: 15.92%;
+  left: 11.74%;
+  font-size: 48.83px;
+  font-weight: 900;
+  display: inline-block;
+}
+.logoIcon {
+  position: absolute;
+  height: 65.63%;
+  width: 12.43%;
+  top: 23.44%;
+  right: 86.32%;
+  bottom: 10.94%;
+  left: 1.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vectorIcon2 {
+  position: relative;
+  width: 18px;
+  height: 16px;
+}
+.logOut {
+  position: relative;
+  display: inline-block;
+  width: 79px;
+  flex-shrink: 0;
+}
+.logout {
+  position: absolute;
+  top: 18px;
+  left: 1303px;
+  width: 103px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.vectorIcon3 {
+  position: relative;
+  width: 15px;
+  height: 16px;
+}
+.home1 {
+  position: relative;
+  display: inline-block;
+  width: 58px;
+  flex-shrink: 0;
+}
+.home {
+  position: absolute;
+  top: 18px;
+  left: 1074px;
+  width: 79px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.vectorIcon4 {
+  position: relative;
+  width: 14px;
+  height: 16px;
+}
+.profile1 {
+  position: relative;
+  display: inline-block;
+  width: 59px;
+  flex-shrink: 0;
+}
+.profile {
+  position: absolute;
+  top: 18px;
+  left: 1190px;
+  width: 79px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.blackBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 1440px;
+  height: 64px;
+  overflow: hidden;
+  color: var(--color-white);
+}
+.suppliers {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 1024px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-avenir);
+}

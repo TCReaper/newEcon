@@ -1,0 +1,172 @@
+.markOutThe,
+.photoIcon {
+  position: relative;
+}
+.photoIcon {
+  border-radius: var(--br-mini);
+  width: 708px;
+  height: 632px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contents {
+  position: absolute;
+  top: 224px;
+  left: 40px;
+  width: 710px;
+  height: 672px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.nextButton {
+  position: absolute;
+  height: 6.23%;
+  top: 96.2%;
+  bottom: -2.43%;
+  left: calc(50% - 157px);
+  width: 314px;
+}
+.progressChild,
+.progressItem {
+  position: absolute;
+  top: 21.5px;
+  left: 77.5px;
+  border-top: 5px solid var(--color-lightskyblue);
+  box-sizing: border-box;
+  width: 559px;
+  height: 5px;
+}
+.progressItem {
+  border-top: 5px solid var(--color-steelblue);
+  width: 275px;
+}
+.ellipseDiv,
+.progressChild1,
+.progressInner {
+  position: absolute;
+  top: 11px;
+  left: 71px;
+  border-radius: 50%;
+  background-color: var(--color-steelblue);
+  width: 20px;
+  height: 20px;
+}
+.ellipseDiv,
+.progressChild1 {
+  left: 345px;
+}
+.progressChild1 {
+  left: 619px;
+  background-color: var(--color-lightskyblue);
+}
+.details {
+  position: absolute;
+  top: 43px;
+  left: 57px;
+  line-height: 16px;
+}
+.statementOfAccount {
+  margin: 0;
+}
+.invoiceMapping,
+.statementOfAccountMappingContainer {
+  position: absolute;
+  top: 40px;
+  left: 277px;
+  line-height: 16px;
+}
+.invoiceMapping {
+  left: 596px;
+  color: var(--color-lightskyblue);
+}
+.progress {
+  position: absolute;
+  top: 112px;
+  left: 40px;
+  width: 710px;
+  height: 88px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-steelblue);
+}
+.addNewSupplier {
+  position: absolute;
+  top: 0;
+  left: 45.68px;
+  font-weight: 900;
+}
+.vectorIcon {
+  position: absolute;
+  height: 48.18%;
+  width: 6.58%;
+  top: 14.44%;
+  right: 93.42%;
+  bottom: 37.38%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.header {
+  position: absolute;
+  top: 27px;
+  left: 36.32px;
+  width: 386.68px;
+  height: 53px;
+  font-size: 39.06px;
+}
+.greenButton,
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next {
+  position: relative;
+  font-weight: 900;
+  width: 314px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.greenButton {
+  position: absolute;
+  height: 6.23%;
+  width: 39.75%;
+  top: 90.07%;
+  right: 31.65%;
+  bottom: 3.7%;
+  left: 28.61%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumseagreen);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  color: var(--color-white);
+}
+.edgeIcon {
+  position: absolute;
+  top: 748px;
+  left: 263px;
+  width: 321px;
+  height: 100px;
+}
+.ansStep22 {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1027px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-avenir);
+}

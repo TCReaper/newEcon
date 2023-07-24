@@ -1,0 +1,204 @@
+.background {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.logoIcon {
+  position: relative;
+  width: 244px;
+  height: 57px;
+  object-fit: cover;
+}
+.frame {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.invoiceManagementSystem {
+  align-self: stretch;
+  position: relative;
+  line-height: 48.83px;
+  font-weight: 900;
+}
+.backdrop {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 13px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 146px;
+  background-image: url(/public/backdrop@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.rememberMe1,
+.tickbox {
+  position: relative;
+}
+.rememberMe1 {
+  font-size: var(--font-size-base);
+  font-family: var(--font-avenir);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 106px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.rememberMe {
+  position: absolute;
+  height: 9.05%;
+  width: 50.14%;
+  top: 66.38%;
+  right: 40.65%;
+  bottom: 24.57%;
+  left: 9.21%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.password1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  font-family: var(--font-avenir);
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 92px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+}
+.password {
+  position: absolute;
+  height: 15.52%;
+  width: 85.09%;
+  top: 43.97%;
+  right: 5.69%;
+  bottom: 40.52%;
+  left: 9.21%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.username1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  font-family: var(--font-avenir);
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 96px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.username {
+  height: 15.52%;
+  width: 85.09%;
+  top: 23.28%;
+  right: 5.69%;
+  bottom: 61.21%;
+  left: 9.21%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.login,
+.login1,
+.username {
+  position: absolute;
+}
+.login {
+  height: 14.44%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: 39.06px;
+  font-weight: 900;
+  font-family: var(--font-avenir);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.login1 {
+  height: 13.79%;
+  width: 85.09%;
+  top: 86.21%;
+  right: 5.69%;
+  bottom: 0;
+  left: 9.21%;
+  cursor: pointer;
+}
+.frame2 {
+  position: relative;
+  width: 369px;
+  height: 464px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.box,
+.logIn {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box {
+  margin: 0 !important;
+  position: absolute;
+  height: 45.31%;
+  width: 59.72%;
+  top: 27.34%;
+  right: 20.14%;
+  bottom: 27.34%;
+  left: 20.14%;
+  background-color: var(--color-white);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  z-index: 1;
+}
+.logIn {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1024px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 48.83px;
+  color: var(--color-whitesmoke);
+  font-family: var(--font-avenir);
+}
+@media screen and (max-width: 1200px) {
+  .logIn {
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}

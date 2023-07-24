@@ -1,0 +1,310 @@
+.code,
+.name {
+  position: absolute;
+  top: 13px;
+  left: 61px;
+}
+.name {
+  left: 264px;
+  display: inline-block;
+  width: 105px;
+}
+.productListChild {
+  position: absolute;
+  top: 39.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 1301px;
+  height: 1px;
+}
+.productListInner,
+.productListItem {
+  position: absolute;
+  top: -9.5px;
+  left: 47.5px;
+  border-right: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 1px;
+  height: 201px;
+}
+.productListInner {
+  top: -39.5px;
+  left: 244.5px;
+}
+.productList,
+.tickbox {
+  position: absolute;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.tickbox {
+  width: calc(100% - 690px);
+  top: 11px;
+  right: 656px;
+  left: 34px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-lightgray);
+  height: 20px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.productList {
+  height: 18.09%;
+  width: 100%;
+  top: 78.97%;
+  right: 0;
+  bottom: 2.94%;
+  left: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray-100);
+  font-size: var(--font-size-base);
+}
+.new {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+.input,
+.input1 {
+  position: absolute;
+  height: 5.88%;
+  background-color: var(--color-white);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.input {
+  width: 13.56%;
+  top: 94.12%;
+  right: 83.76%;
+  bottom: 0;
+  left: 2.68%;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+.input1 {
+  width: 100%;
+  top: 4.56%;
+  right: 0;
+  bottom: 89.56%;
+  left: 0;
+  border-radius: var(--br-8xs);
+}
+.supplierName {
+  position: absolute;
+  top: 0;
+  left: 14px;
+}
+.input2,
+.input3,
+.input4,
+.input5 {
+  position: absolute;
+  height: 12.65%;
+  width: 100%;
+  top: 17.94%;
+  right: 0;
+  bottom: 69.41%;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.input3,
+.input4,
+.input5 {
+  height: 5.88%;
+  top: 37.94%;
+  bottom: 56.18%;
+}
+.input4,
+.input5 {
+  top: 50.88%;
+  bottom: 43.24%;
+}
+.input5 {
+  top: 63.82%;
+  bottom: 30.29%;
+}
+.supplierAddress {
+  position: absolute;
+  top: 91px;
+  left: 14px;
+}
+.contactNumber,
+.email,
+.salesmanName {
+  position: absolute;
+  top: 227px;
+  left: 14px;
+}
+.contactNumber,
+.email {
+  top: 315px;
+}
+.email {
+  top: 403px;
+}
+.contents,
+.products {
+  position: absolute;
+  top: 507px;
+  left: 0;
+}
+.contents {
+  top: 208px;
+  left: 40px;
+  width: 710px;
+  height: 680px;
+}
+.greenButton,
+.next,
+.nextButton {
+  width: 314px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next {
+  position: relative;
+  font-weight: 900;
+  height: 27px;
+  flex-shrink: 0;
+}
+.greenButton,
+.nextButton {
+  flex-direction: column;
+}
+.greenButton {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumseagreen);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nextButton {
+  position: absolute;
+  height: 6.23%;
+  top: 90.07%;
+  bottom: 3.7%;
+  left: calc(50% - 157px);
+  text-align: center;
+  color: var(--color-white);
+}
+.progressChild {
+  position: absolute;
+  top: 21.5px;
+  left: 77.5px;
+  border-top: 5px solid var(--color-lightskyblue);
+  box-sizing: border-box;
+  width: 559px;
+  height: 5px;
+}
+.ellipseDiv,
+.progressInner,
+.progressItem {
+  position: absolute;
+  top: 11px;
+  left: 71px;
+  border-radius: 50%;
+  background-color: var(--color-steelblue);
+  width: 20px;
+  height: 20px;
+}
+.ellipseDiv,
+.progressInner {
+  left: 345px;
+  background-color: var(--color-lightskyblue);
+}
+.ellipseDiv {
+  left: 619px;
+}
+.details {
+  position: absolute;
+  top: 43px;
+  left: 57px;
+  line-height: 16px;
+  color: var(--color-steelblue);
+}
+.statementOfAccount {
+  margin: 0;
+}
+.invoiceMapping,
+.statementOfAccountMappingContainer {
+  position: absolute;
+  top: 40px;
+  left: 277px;
+  line-height: 16px;
+}
+.invoiceMapping {
+  left: 596px;
+}
+.progress {
+  position: absolute;
+  top: 112px;
+  left: 40px;
+  width: 710px;
+  height: 88px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-lightskyblue);
+}
+.addNewSupplier {
+  position: absolute;
+  top: 0;
+  left: 45.68px;
+  font-weight: 900;
+}
+.vectorIcon {
+  position: absolute;
+  height: 48.18%;
+  width: 6.58%;
+  top: 14.44%;
+  right: 93.42%;
+  bottom: 37.38%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.header {
+  position: absolute;
+  top: 27px;
+  left: 36.32px;
+  width: 386.68px;
+  height: 53px;
+  font-size: 39.06px;
+}
+.ansStep1 {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 790px;
+  height: 1027px;
+  overflow-y: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-avenir);
+}
